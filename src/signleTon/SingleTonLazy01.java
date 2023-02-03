@@ -6,6 +6,7 @@ package signleTon;
 public class SingleTonLazy01 {
 
     public static void main(String[] args) {
+        //11
         SingleTon instance = SingleTon.getInstance();
         SingleTon instance2 = SingleTon.getInstance();
         System.out.println(instance2 == instance);
